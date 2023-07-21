@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'MuseoModerno', cursive;
+}
+body{
+    background-color: #35363a;
+}
+#title{
+    font-size: 2em;
+    margin: 2vw;
+    color: #FFFFFF;
+}
+button{
+    background-color: transparent;
+    border: 0;
+}
+button:focus{
+    -webkit-animation: blink-2 0.5s both;
+    animation: blink-2 0.5s both;
+}
+i{
+    font-size: 2em;
+    margin: 0.5vw;
+    color: #FFFFFF;
+}
+i:hover{
+    cursor: pointer;
+}
+input{
+    width: 20vw;
+    margin-left: 2vw;
+    margin-right: 0.2vw;
+    padding: 0.5%;
+    border: 0;
+    background-color: rgb(87, 88, 88);
+    color: #FFFFFF;
+}
+input:focus{
+  
+}
+#add-task-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+li{
+    margin: 3.5vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: #FFFFFF;
+}
+.button-list{
+    background-color: rgb(87, 88, 88);
+    padding: 0.27vw;
+    margin-left: 1vw;
+    color: #FFFFFF;
+    }
+
+
+.button-list:focus{
+    -webkit-animation: blink-2 0.5s both;
+    animation: blink-2 0.5s both;
+}
+.tracking-in-contract {
+	-webkit-animation: tracking-in-contract 0.65s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 0.65-s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+ @-webkit-keyframes blink-2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink-2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
